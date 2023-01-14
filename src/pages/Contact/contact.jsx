@@ -18,7 +18,7 @@ const Contact = () => {
           <FaEnvelope/> hello@email.com
         </p>
         <p className='mb-8 text-[20px]'>
-           <FaPhoneAlt/> 01634926177
+           <FaPhoneAlt/> +44 7503412033
         </p>
 
         <div className='md:text-3xl md:font-bold'>You can find us on</div>

@@ -22,8 +22,8 @@ const Home = () => {
 
           <div className='mx-10 md:flex-1'>  
             <h1 className='text-2xl lg:text-2xl xl:text-7xl font-bold mb-4'>
-              Eunistar<span className='text-blue-400'>.</span><br/>
-              Health Consultants<span className='text-violet-900'>.</span>
+              Amaki Agency<span className='text-blue-400'>.</span><br/>
+              <span className='text-violet-900'></span>
             </h1>
 
             <p className='text-lg max-w-xl mb-6'>
