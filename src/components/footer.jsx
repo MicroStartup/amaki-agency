@@ -20,7 +20,7 @@ const Footer = () => {
                </div>
            <div className='col-span-2 md:row-start-1 md:col-start-2
           md:col-end-3 border-t-2 border-black md:border-t-0 flex items-center
-          justify-center p-4 text-center'>Copyright &copy; 2022 Amaki-Agency
+          justify-center p-4 text-center'>Copyright &copy; 2023 Amaki-Agency
           </div>
        </footer>
   )

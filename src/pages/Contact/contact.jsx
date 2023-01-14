@@ -12,7 +12,10 @@ const Contact = () => {
       <div>
         <h1 className='text-4xl lg:text-5xl xl:text-6xl font-bold mb-4'>Stay in touch with us</h1>
         <p className='mb-6 text-lg'>
-        Ever want to contact me? If you're looking for help with your creative business, have a burning question to ask me, or simply want to interact, the quickest way to get my attention is to hit me up on email.
+        Call us on +44 7503412033 to arrange to receive our Care
+        Service in your own home, giving you support and help that 
+        can help you remain in your own home for longer rather than entering 
+        a residential or care home before it is actually needed.
         </p>
         <p className='mb-2 text-[20px]'>
           <FaEnvelope/> hello@email.com

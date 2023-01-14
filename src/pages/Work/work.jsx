@@ -10,7 +10,7 @@ const Work = () => {
     style={{ backgroundImage: `url(${images.healthcare3})` }}>
     <div className='container mx-auto px-4'>
       <h2 className='text-lg font-bold uppercase'>Application form</h2>
-      <h1 className='text-4xl lg:text-5xl xl:text-7xl font-bold mb-6'>Eunistar Health <br/> Consultants</h1>
+      <h1 className='text-4xl lg:text-5xl xl:text-7xl font-bold mb-6'>Amaki Agency</h1>
     </div>
     </section>
 
@@ -19,9 +19,12 @@ const Work = () => {
       <div className='container mx-auto px-4'>
         <h1 className='text-3xl font-bold mb-4'>Healthcare Assistant</h1>
         <p className='text-lg max-w-[630px] mb-16'>
-        In 2019 Harley Davidson, the legendary American motorcycles brand had a major brand change. My involvement with the Harley Davidson rebranding was to
-        create and maintain their online presence along with
-        being directly involved with the process of rebranding.
+        At Amaki Agency we believe in investing in our team and ensuring 
+        that they are supported during their time working with us. We are 
+        always looking for experienced, highly skilled, professional nurses 
+        and carers to join our team and enhance the service we already provide. 
+        We also have great opportunities to join our team working behind the scenes 
+        ensuring that the delivery of care is seamless and always to the highest standards..
         </p>
 
         <ul className='text-lg flex max-w-[630px] gap-8'>
