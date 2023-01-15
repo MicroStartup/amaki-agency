@@ -26,11 +26,11 @@ const About = () => {
           </h1>
 
           <p className='text-lg max-w-xl mb-6'>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue rhoncus purus eget feugiat.
-             Curabitur rhoncus, ante volutpat ornare accumsan, felis erat vulputate sem, sed pretium ipsum augue 
-             at nibh. Aenean eget ipsum faucibus, congue massa ac, pellentesque felis. Curabitur eget erat eleifend
-             augue interdum dapibus. Vivamus ultricies felis ut pharetra volutpat. Nam eget mauris 
-             turpis. Integer dapibus rhoncus turpis, eu maximus dui hendrerit at. Sed bibendum orci non porttitor interdum.
+          Amaki Agency Healthcare provides high quality homecare, also known as domiciliary care and support to clients living
+           in their own homes. Our aim is to make your homecare experience not just better, but excellent! We are registered, and 
+           licensed by the Care Quality Commission (CQC) to provide homecare, live-in care and personal care services to our
+            communities. We provide temporary, contract and permanent staff. We provide Excellent Standards of Care, Management and Support that meet the needs of           our clients while ensuring that their dignity and self-Respect are met. Our clients trust us to place the right staff in the right roles with many requests coming at short notice. Growing reputation has been built by the professionalism and work ethic of our staffs.
+A key part of our homecare and support service is to get to know the unique qualities of each customer. We want to know about your interests and hobbies and the experiences that light up your life. This is the reason why Amaki Agency healthcare offer a free, initial homecare assessment in order to assess your needs and develop care plans that is individualised and responsive to you needs.
           </p>
         </div>
       </div>
@@ -46,14 +46,12 @@ const About = () => {
             Our Career
           </h2>
           <p className='text-lg max-w-xl mb-6'>
-            Smartea is a website for all fans of mathematics. It is a Single
-            Page App (SPA) that allows users to: Make simple calculations, Read
-            a random math-related quote. Built with React and Redux. The app
-            allows users to perform basic arithmetic operations, including
-            addition, subtraction, division, and multiplication, and chaining
-            and nesting of operations (as well as the +/- button which changes a
-            negative number positive and vice-versa). Now let&apos;s go do some
-            MATHS!😎
+          Amaki Agency Healthcare employ competent, skilled, caring, and well-trained 
+          care staff who are responsive to the needs of our service users, their families,
+           and the communities we serve. Our qualified staff include health and social care
+            assistants, support workers and healthcare assistants.
+We also supply highly qualified healthcare professionals to provide personalized care services to private hospitals, private sectors, nursing homes, residential homes and learning disability homes. To meet these demands for our clients we supply highly trained healthcare assistants, support workers who are CRB/DBS checked and highly experienced in their jobs. We spend heavily on screening and vetting for our staff, you can count on us for full compliance in 
+supplying you with well-vetted and screened staff to do the job you want.!😎
           </p>
         </div>
         <div className='flex'>
@@ -72,23 +70,23 @@ const About = () => {
       <div className='text-lg grid md:grid-cols-3 gap-8 m-10'>
         
         <div className='text-center bg-white border-black border-2 p-4'>
-          <h3 className='font-bold text-xl text-center p-4'>Kindness and Compassion</h3>
-          <p className='text-lg text-center p-4'>Maecenas blandit risus urna, et imperdiet erat consectetur ac. Vivamus eget augue 
-            dictum nisl facilisis sodales in et nisl. Orci varius natoque penatibus et magnis dis parturient montes,</p>
+          <h3 className='font-bold text-xl text-center p-4'>Continuous Improvement</h3>
+          <p className='text-lg text-center p-4'>We make sure that we fulfil all staffing requests. 
+          We also regularly evaluate staff performanceto ensure quality standards.,</p>
         </div>
 
         <div className='text-center bg-white border-black border-2 p-4'
         >
           <h3 className='font-bold text-xl text-center p-4'>Respect</h3>
-          <p className='text-lg text-center p-4'>Maecenas blandit risus urna, et imperdiet erat consectetur ac. Vivamus eget augue 
-            dictum nisl facilisis sodales in et nisl. Orci varius natoque penatibus et magnis dis parturient montes,</p>
+          <p className='text-lg text-center p-4'>The service will encourage a feedback policy from client and families 
+          of client to ensure the dignity and respect of service users are met,</p>
         </div>
 
         <div className='text-center bg-white border-black border-2 p-4'
         >
-          <h3 className='font-bold text-xl text-center p-4'>Highest Quality of Care</h3>
-          <p className='text-lg text-center p-4'>Maecenas blandit risus urna, et imperdiet erat consectetur ac. Vivamus eget augue 
-            dictum nisl facilisis sodales in et nisl. Orci varius natoque penatibus et magnis dis parturient montes,</p>
+          <h3 className='font-bold text-xl text-center p-4'>Customer Focus</h3>
+          <p className='text-lg text-center p-4'>Deliver the best talent and insights to help healthcare organisations optimise 
+            their workforce,</p>
         </div>
 
 
@@ -104,14 +102,13 @@ const About = () => {
         </div>
         <div className=' lg:flex-1 md:flex-1 md:order-2 lg:order-2 container flex-col lg:flex-row px-5'>
             <h3 className='font-bold text-xl text-center'>A Trusted And Accredited Consultante</h3>
-            <p className='text-lg text-center'>Quisque metus magna, interdum quis purus eget, 
-            finibus ornare tellus. Pellentesque vulputate mauris eget porttitor et nulla.
-             Nam fermentum aliquam ligula auctor faucibus</p>
+            <p className='text-lg text-center'>Our staffs are passionate and able to give your clients the very
+             best service Specialists in their field, be that hospital care, residential care or other fields</p>
         </div>
         <div className='px-5 lg:flex-1 md:flex-1 md:order-2 lg:order-2 container flex-col lg:flex-row'>
             <p className='text-lg text-center'>
-            Lorem ipsum dolor sit amet, consectetur
-             adipiscing elit. Vivamus ut est et enim posuere facilisis commodo nec massa
+            Deliver the best talent and insights to help healthcare organisations optimise 
+            their workforce
             </p>
         </div>
       </div>

@@ -79,7 +79,7 @@ commod, changing of soiled linen, prompting to take medication.
       <div className="items-start justify-center lg:w-[70%] py-12 px-6 lg:px-2 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold px-12">Respite Care</h1>
         <p className="text-[18px] leading-snug px-12">
-        Eunistar Healthcare understands that short breaks are of great importance to people who give care to their loved ones. It offers the individual the chance to meet new people, do something different from their normal routine. This is the reason why Eunistar Healthcare provides respite care and support for people with complex needs in the comfort of their own homes. Our services range from a sitting service for a couple of hours to 24 hour live-in care. We offer personalised care and support, so you and your loved one have the service that you want, in the way you both want it. Our compassionate and reliable staff are fully trained, so that you have the peace of mind you need to take that much needed break-out. 
+        Amaki-Agency Healthcare understands that short breaks are of great importance to people who give care to their loved ones. It offers the individual the chance to meet new people, do something different from their normal routine. This is the reason why Eunistar Healthcare provides respite care and support for people with complex needs in the comfort of their own homes. Our services range from a sitting service for a couple of hours to 24 hour live-in care. We offer personalised care and support, so you and your loved one have the service that you want, in the way you both want it. Our compassionate and reliable staff are fully trained, so that you have the peace of mind you need to take that much needed break-out. 
 Contact our office today on 01634926177 to discuss how we can create a tailored service to meet your needs.
         </p>
       </div>
@@ -89,7 +89,7 @@ Contact our office today on 01634926177 to discuss how we can create a tailored 
       <div className="items-start justify-center lg:w-[70%] py-12 px-6 lg:px-2 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold px-12">Learning Disability Care/Social Care</h1>
         <p className="text-[18px] leading-snug px-12">
-           Eunistar Healthcare believes that people with learning disabilities are no exception in terms of enjoying a life that has purpose and meaning. This is why our serviHeadce supports you to live the life you want. Our aim is to help you achieve your personal goals. We develop a personalised support plan with you, so you can receive your care in the community where you live. Choosing Eunistar Healthcare means receiving support and care to:
+          Amaki-Agency Healthcare believes that people with learning disabilities are no exception in terms of enjoying a life that has purpose and meaning. This is why our serviHeadce supports you to live the life you want. Our aim is to help you achieve your personal goals. We develop a personalised support plan with you, so you can receive your care in the community where you live. Choosing Eunistar Healthcare means receiving support and care to:
         </p>
         <div className="px-12 space-y-2 font-medium text-xl">
         <ul className='text-lg grid md:grid-cols-4 gap-2 mb-28'>
@@ -113,15 +113,13 @@ Contact our office today on 01634926177 to discuss how we can create a tailored 
         <div className=' md:flex-1 
           md:order-2 container flex-col lg:flex-row px-5'>
             <h3 className='font-bold text-xl text-center'>A Trusted And Accredited Consultante</h3>
-            <p className='text-lg text-center'>Quisque metus magna, interdum quis purus eget, 
-            finibus ornare tellus. Pellentesque vulputate mauris eget porttitor et nulla.
-             Nam fermentum aliquam ligula auctor faucibus</p>
+            <p className='text-lg text-center'>Our staffs are passionate and able to give your clients the very
+             best service Specialists in their field, be that hospital care, residential care or other fields</p>
         </div>
         <div className='px-5 md:flex-1 
           md:order-2 container flex-col lg:flex-row'>
-            <p className='text-lg text-center'>
-            Lorem ipsum dolor sit amet, consectetur
-             adipiscing elit. Vivamus ut est et enim posuere facilisis commodo nec massa
+            <p className='text-lg text-center'>Deliver the best talent and insights to help healthcare 
+            organisations optimise their workforce
             </p>
         </div>
       </div>

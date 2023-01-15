@@ -110,15 +110,14 @@ const Home = () => {
         <div className=' md:flex-1 
           md:order-2 container flex-col lg:flex-row px-5'>
             <h3 className='font-bold text-xl text-center'>A Trusted And Accredited Consultante</h3>
-            <p className='text-lg text-center'>Quisque metus magna, interdum quis purus eget, 
-            finibus ornare tellus. Pellentesque vulputate mauris eget porttitor et nulla.
-             Nam fermentum aliquam ligula auctor faucibus</p>
+            <p className='text-lg text-center'>Our staffs are passionate and able to give your clients the very
+             best service Specialists in their field, be that hospital care, residential care or other fields</p>
         </div>
         <div className='px-5 md:flex-1 
           md:order-2 container flex-col lg:flex-row'>
             <p className='text-lg text-center'>
-            Lorem ipsum dolor sit amet, consectetur
-             adipiscing elit. Vivamus ut est et enim posuere facilisis commodo nec massa
+            Deliver the best talent and insights to help healthcare 
+            organisations optimise their workforce
             </p>
         </div>
       </div>
