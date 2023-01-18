@@ -8,7 +8,7 @@ import { RxDotFilled } from 'react-icons/rx';
 
 const Home = () => {
 
-  const slider = [
+  const slides = [
     {
       link_to_image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
     },
@@ -26,6 +26,24 @@ const Home = () => {
       link_to_image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
     },
   ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prev = () => {
+    const firstSlide = currentIndex === 0;
+    const newIndex = firstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const next = () => {
+    const lastSlide = currentIndex === slides.length - 1;
+    const newIndex = lastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
 
   return (
     <>
