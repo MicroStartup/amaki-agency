@@ -42,7 +42,7 @@ const Work = () => {
           </li>
         </ul>
 
-       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3IUeKZDpVGiVHwyQFp6bSCQNAPunOiD0n9GhoK2IonvN6yg/viewform?usp=sf_link"><button class="bg-blue-700 uppercase text-xs lg:text-base lg:my-10 p-2 text-white lg:w-6/12">Apply</button></a> 
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3IUeKZDpVGiVHwyQFp6bSCQNAPunOiD0n9GhoK2IonvN6yg/viewform?usp=sf_link"><button className="bg-blue-700 uppercase text-xs lg:text-base lg:my-10 p-2 text-white lg:w-6/12">Apply</button></a> 
 
       </div>
     </section>
