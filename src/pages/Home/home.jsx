@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { images } from '../../constants';
 import { workData } from '../../data';
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { RxDotFilled } from 'react-icons/rx';
 
 const Home = () => {
 
