@@ -1,13 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { images } from '../../constants';
 import { workData } from '../../data';
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { RxDotFilled } from 'react-icons/rx';
+
+
+
 
 const Home = () => {
+
+  const carousel = [
+    {
+      url: images.healthcare,
+    },
+    {
+      url: images.healthcare1,
+    },
+    {
+      url: images.healthcare2,
+    },
+
+    {
+      url: images.healthcare3,
+    },
+    {
+      url: images.healthcare4,
+    },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prev = () => {
+    const firstImage = currentIndex === 0;
+    const newIndex = firstImage ? carousel.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const next = () => {
+    const lastImage = currentIndex === carousel.length - 1;
+    const newIndex = lastImage ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
+
   return (
     <>
-    <section className='py-20 lg:py-36 xl:py-48'>
+    <section className='py-20'>
+
+    <div className='max-w-[1400px] h-[600px] m-auto relative group mb-6'>
+      <div
+        style={{ backgroundImage: `url(${carousel[currentIndex].url})` }}
+        className='w-full h-[550px] bg-center bg-cover duration-500'
+      ></div>
+      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 bg-black/20 text-white cursor-pointer'>
+        <BsChevronCompactLeft onClick={prev} size={30} />
+      </div>
+      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl p-2 bg-black/20 text-white cursor-pointer'>
+        <BsChevronCompactRight onClick={next} size={30} />
+      </div>
+      <div className='flex top-4 justify-center py-2'>
+        {carousel.map((slide, slideIndex) => (
+          <div
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+            className='text-2xl cursor-pointer'
+          >
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
+    </div>
 
       <div className='mt-10 lg:mx-10 gap-8  flex flex-col md:flex-row items-center'>
           <div className='md:flex-1 md:order-2'>
@@ -52,74 +119,6 @@ const Home = () => {
             </div>
           </div>
 
-      </div>
-    </section>
-
-    <section id="work" className='md:grid md:place-items-center px-4 pb-12 border-black border-t-2 bg-sky-500' >
-        <div className='text-center py-12'>
-            <h1 className='text-2xl lg:text-3xl font-bold mb-4'>
-            Meet Your Needs
-            </h1>
-            <p className='max-w-xl mx-auto text-lg'>
-            AHRQ advances excellence in healthcare by producing evidence to make healthcare safer, higher quality, more accessible, equitable, and affordable.
-            </p>
-        </div>
-
-        <div className=' md:grid lg:grid md:grid-cols-2 lg:grid-cols-2 lg:w-[85%]  item mb-28 '>
-          {workData.map((item, index) => (
-            <Link to={item.link} key={index} className='ease-in-out duration-75
-              hover:translate-y-[-8px] m-2 hover:drop-shadow-[4px_2px_0_rgba(0,0,0,1)]
-            '>
-
-            <div className='border border-black overflow-hidden bg-black'>
-              <img src={item.thumbnail} alt={item.alt} loading='lazy' width='650' height='400' />
-            </div>
-
-            <div className='bg-white border-x-2 border-black border-b-2 p-4 text-lg flex justify-between gap-4 items-center
-            '>
-
-              <div>
-                <span className='font-bold'>{item.title} </span>
-                <span className='text-zinc-400'>&#9679; {item.category}</span>
-              </div>
-
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            </Link>
-          ))}
-        </div>
-
-
-        <Link to={'/services'} className="flex text-xl gap-4 font-bold justify-center mb-8">View all work
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-        </Link>
-
-    </section>
-
-    <section  className='flex flex-col'>
-      <div className='grid-cols-3 gap-5 flex flex-wrap text-black bg-[#f8f9fa] py-12'>
-        <div className='md:flex-1 container md:border-r-4'>      
-
-            <img className='mx-auto' src={images.healthcare8} alt='Raddy' width='' height=''/>
-
-        </div>
-        <div className=' md:flex-1 
-          md:order-2 container flex-col lg:flex-row px-5'>
-            <h3 className='font-bold text-xl text-center'>A Trusted And Accredited Consultante</h3>
-            <p className='text-lg text-center'>Our staffs are passionate and able to give your clients the very
-             best service Specialists in their field, be that hospital care, residential care or other fields</p>
-        </div>
-        <div className='px-5 md:flex-1 
-          md:order-2 container flex-col lg:flex-row'>
-            <p className='text-lg text-center'>
-            Deliver the best talent and insights to help healthcare 
-            organisations optimise their workforce
-            </p>
-        </div>
       </div>
     </section>
   </>
