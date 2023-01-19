@@ -36,7 +36,7 @@ const Work = () => {
     </section>
 
     <section  className='flex flex-col'>
-      <div className='grid-cols-3 gap-5 flex flex-wrap text-black bg-white py-16'>
+      <div className='grid-cols-3 gap-5 flex flex-wrap text-black bg-white py-16 mx-20'>
         <div className=' md:flex-1 
           md:order-2 container flex-col lg:flex-row px-5'>
 
@@ -46,12 +46,11 @@ const Work = () => {
 
         </p>
         </div>
-        <div className='px-5 md:flex-1 
-          md:order-2 container flex-col lg:flex-row'>
-            <p className='text-lg text-center'>
-            Deliver the best talent and insights to help healthcare 
-            organisations optimise their workforce
-            </p>
+        <div className='px-5 md:flex-1 md:order-2 container flex-col lg:flex-row'>
+
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3IUeKZDpVGiVHwyQFp6bSCQNAPunOiD0n9GhoK2IonvN6yg/viewform?usp=sf_link"><button class="bg-blue-700 uppercase text-xs lg:text-base lg:my-10 p-2 m text-white lg:w-6/12 mx-2">Application Form</button></a>
+
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3IUeKZDpVGiVHwyQFp6bSCQNAPunOiD0n9GhoK2IonvN6yg/viewform?usp=sf_link"><button class="bg-blue-700 uppercase text-xs lg:text-base lg:my-10 p-2 text-white lg:w-6/12 mx-2">Timesheet Form</button></a>
         </div>
       </div>
     </section>
