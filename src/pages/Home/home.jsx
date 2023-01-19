@@ -104,7 +104,7 @@ const Home = () => {
       <div className='grid-cols-3 gap-5 flex flex-wrap text-black bg-[#f8f9fa] py-12'>
         <div className='md:flex-1 container md:border-r-4'>      
 
-            <img className='mx-auto' src={images.healthcare8} alt='Raddy' width='' height=''/>
+            <img className='mx-auto' src={images.healthcare8} alt='Raddy'/>
 
         </div>
         <div className=' md:flex-1 

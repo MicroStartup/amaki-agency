@@ -26,7 +26,7 @@ const Header = () => {
       justify-center'>
         
         <ul className='flex gap-4 max-w-sm overflow-auto
-          snap-always p-4 text-[16px]'>
+          snap-always text-[16px]'>
           <li>
             <NavLink to='/'>
               Home
@@ -44,7 +44,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink to='/work'>
-              Work
+              Work With Us
             </NavLink>
           </li>
           <li>
