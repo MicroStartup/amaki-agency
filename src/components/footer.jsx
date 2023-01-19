@@ -6,7 +6,7 @@ import { images } from '../constants'
 const Footer = () => {
   return (
     
-    <div className='w-full mt-24 bg-slate-900 text-gray-300 py-y'>
+    <footer className='w-full mt-24 bg-slate-900 text-gray-300 py-y'>
      <div className='grid-cols-2 gap-5 flex flex-wrap text-black bg-[#f8f9fa] py-12'>
         <div className=' md:flex-1 
           md:order-2 container flex-col lg:flex-row px-5'>
@@ -27,18 +27,18 @@ const Footer = () => {
     <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
     <p className='py-4'>Copyright &copy; 2023 Amaki-Agency</p>
     <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
-<Link to='/'>
-                    <FaFacebook />
-                 </Link>
-                 <Link to='/'>
-                   <FaWhatsapp/>
-                 </Link>
-                 <Link to='/'>
-                   <FaTwitter/>
-                 </Link>
+      <Link to='/'>
+        <FaFacebook />
+      </Link>
+      <Link to='/'>
+        <FaWhatsapp/>
+      </Link>
+      <Link to='/'>
+        <FaTwitter/>
+      </Link>
     </div>
     </div>
-</div>
+</footer>
   )
 }
 
