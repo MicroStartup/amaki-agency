@@ -52,10 +52,10 @@ const Home = () => {
     <>
     <section className='py-20'>
 
-    <div className='max-w-[1400px] h-[780px] m-auto relative group mb-6'>
+    <div className='max-w-[1400px] h-[600px] m-auto relative group mb-6'>
       <div
         style={{ backgroundImage: `url(${carousel[currentIndex].url})` }}
-        className='w-full h-full bg-center bg-cover duration-500'
+        className='w-full h-[550px] bg-center bg-cover duration-500'
       ></div>
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prev} size={30} />
