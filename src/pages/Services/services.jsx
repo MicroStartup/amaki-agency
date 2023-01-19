@@ -103,28 +103,6 @@ Contact our office today on 01634926177 to discuss how we can create a tailored 
         </div>
       </div>
     </div>
-    <section  className='flex flex-col'>
-      <div className='grid-cols-3 gap-5 flex flex-wrap text-black bg-[#f8f9fa] py-12'>
-        <div className='md:flex-1 container md:border-r-4'>      
-
-            <img className='mx-auto' src={images.healthcare8} alt='Raddy' width='' height=''/>
-
-        </div>
-        <div className=' md:flex-1 
-          md:order-2 container flex-col lg:flex-row px-5'>
-            <h3 className='font-bold text-xl text-center'>A Trusted And Accredited Consultante</h3>
-            <p className='text-lg text-center'>Our staffs are passionate and able to give your clients the very
-             best service Specialists in their field, be that hospital care, residential care or other fields</p>
-        </div>
-        <div className='px-5 md:flex-1 
-          md:order-2 container flex-col lg:flex-row'>
-            <p className='text-lg text-center'>Deliver the best talent and insights to help healthcare 
-            organisations optimise their workforce
-            </p>
-        </div>
-      </div>
-    </section>
-
     </>
   )
 }
