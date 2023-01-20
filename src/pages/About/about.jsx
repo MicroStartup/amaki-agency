@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import { images } from '../../constants';
 
 const About = () => {
@@ -57,7 +55,7 @@ const About = () => {
         </h3>
         <p className='text-lg text-center p-4'>
           The service will encourage a feedback policy from client and families 
-          of client to ensure the dignity and respect of service users are met,
+          of client to ensure the dignity and respect of service users are met.
         </p>
       </div>
       <div className='text-center bg-white border-black border-2 p-4'
@@ -66,7 +64,7 @@ const About = () => {
           Customer Focus
         </h3>
         <p className='text-lg text-center p-4'>
-          Deliver the best talent and insights to help healthcare organisations optimise their workforce,
+          Deliver the best talent and insights to help healthcare organisations optimise their workforce.
         </p>
       </div>
      </div>
