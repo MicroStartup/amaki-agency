@@ -7,6 +7,8 @@ import healthcare5 from '../assets/healcare/healthcare-image5.jpg';
 import healthcare6 from '../assets/healcare/healthcare-image6.jpeg';
 import healthcare7 from '../assets/healcare/healthcare-image7.jpeg';
 import healthcare8 from '../assets/healcare/healthcare-image8.png';
+import healthcare9 from '../assets/healcare/healthcare-image9.jpeg';
+import healthcare10 from '../assets/healcare/healthcare-image10.jpg';
 import facebookLogo from '../assets/icons/facebook.png';
 import twitterLogo  from '../assets/icons/twitter.png';
 import whatsappLogo  from '../assets/icons/whatsapp.png';
@@ -21,6 +23,8 @@ export default {
     healthcare6,
     healthcare7,
     healthcare8,
+    healthcare9,
+    healthcare10,
     facebookLogo,
     twitterLogo,
     whatsappLogo,
